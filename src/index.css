@@ -12,5 +12,24 @@ code {
     monospace;
 }
 
+.box {
+  width: 325px;
+  border: 5px solid;
+  padding: 10px;
+  margin: 2px;
+}
 
+.container-fluid {
+  overflow: hidden;
+  background-color: #333;
+}
 
+.navbar-brand{
+  text-transform: uppercase;
+  color:white;
+}
+
+.navbar-brand:hover{
+  background-color: #ddd;
+  color: black;
+}
